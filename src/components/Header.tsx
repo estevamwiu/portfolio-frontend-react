@@ -13,12 +13,12 @@ import { useState } from "react";
 
 const navItems = [
   { name: "Home", link: "#home" },
-  { name: "Sobre", link: "#about" },
-  { name: "Experiência", link: "#experience" },
-  { name: "Educação", link: "#education" },
+  { name: "About", link: "#about" },
+  { name: "Experience", link: "#experience" },
+  { name: "Education", link: "#education" },
   { name: "Skills", link: "#skills" },
-  { name: "Projetos", link: "#projects" },
-  { name: "Contato", link: "#contact" },
+  { name: "Projects", link: "#projects" },
+  { name: "Contact", link: "#contact" },
 ];
 
 export function Header() {
@@ -31,7 +31,7 @@ export function Header() {
           <NavbarLogo />
           <NavItems items={navItems} />
           <NavbarButton href="#contact" variant="primary">
-            Fale comigo
+            Hire Me
           </NavbarButton>
         </NavBody>
 
